@@ -1,0 +1,767 @@
+[14Feb2026 19:33:06.805] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[14Feb2026 19:33:06.811] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.18 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[14Feb2026 19:33:07.553] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[14Feb2026 19:33:07.606] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/WingsfieldOficial/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[14Feb2026 19:33:07.980] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/WingsfieldOficial/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.10/fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
+[14Feb2026 19:33:07.981] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/WingsfieldOficial/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.10/javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[14Feb2026 19:33:07.982] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/WingsfieldOficial/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.10/lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[14Feb2026 19:33:07.983] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/WingsfieldOficial/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.10/mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[14Feb2026 19:33:08.301] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 17 dependencies adding them to mods collection
+[14Feb2026 19:33:10.818] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[14Feb2026 19:33:11.004] [main/ERROR] [mixin/]: Mixin config yacl.mixins.json does not specify "minVersion" property
+[14Feb2026 19:33:11.036] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[14Feb2026 19:33:11.102] [main/WARN] [mixin/]: Reference map 'combat_evolution.refmap.json' for combat_evolution.mixins.json could not be read. If this is a development environment you can ignore this message
+[14Feb2026 19:33:11.203] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.26.2+mc1.20.1: 98 options available, 0 override(s) found
+[14Feb2026 19:33:11.204] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[14Feb2026 19:33:11.233] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[14Feb2026 19:33:11.269] [main/WARN] [mixin/]: Reference map 'handcrafted-forge-1.20.1-forge-refmap.json' for handcrafted.mixins.json could not be read. If this is a development environment you can ignore this message
+[14Feb2026 19:33:11.275] [main/WARN] [mixin/]: Reference map 'mixins.block_factorys_bosses.refmap.json' for mixins.block_factorys_bosses.json could not be read. If this is a development environment you can ignore this message
+[14Feb2026 19:33:11.466] [main/INFO] [dev.tonimatas.packetfixer.mixins.v1_19_4_forge.MixinPlugin/]: Packet Fixer forge 1.19.4-1.20.1 has been applied successfully.
+[14Feb2026 19:33:11.783] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/ItemInHandLayer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.ItemInHandLayer)
+[14Feb2026 19:33:11.784] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.ItemInHandLayer was not found mmorpg.mixins.json:PlayerAnimMixin
+[14Feb2026 19:33:12.704] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/KeyboardInput (java.lang.ClassNotFoundException: net.minecraft.client.player.KeyboardInput)
+[14Feb2026 19:33:12.705] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.KeyboardInput was not found fdlib.mixins.json:KeyboardInputMixin
+[14Feb2026 19:33:12.991] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/config/ConfigManager (java.lang.ClassNotFoundException: noobanidus.mods.lootr.config.ConfigManager)
+[14Feb2026 19:33:12.992] [main/WARN] [mixin/]: @Mixin target noobanidus.mods.lootr.config.ConfigManager was not found quark_integrations.mixins.json:lootr.ConfigManagerMixin
+[14Feb2026 19:33:13.013] [main/INFO] [STDOUT/]: [com.hm.efn.mixinloader.CompatInfos:shouldMixin:80]: [EFN Mixin Loader]Apply Default Mixin: com.hm.efn.mixin.ActionAnimationMixin.class -> yesman.epicfight.api.animation.types.ActionAnimation.class
+[14Feb2026 19:33:13.014] [main/INFO] [STDOUT/]: [com.hm.efn.mixinloader.CompatInfos:shouldMixin:80]: [EFN Mixin Loader]Apply Default Mixin: com.hm.efn.mixin.AnimationPlayerMixin.class -> yesman.epicfight.api.animation.AnimationPlayer.class
+[14Feb2026 19:33:13.015] [main/INFO] [STDOUT/]: [com.hm.efn.mixinloader.CompatInfos:shouldMixin:80]: [EFN Mixin Loader]Apply Default Mixin: com.hm.efn.mixin.ArmaturesAccessor.class -> yesman.epicfight.gameasset.Armatures.class
+[14Feb2026 19:33:13.015] [main/INFO] [STDOUT/]: [com.hm.efn.mixinloader.CompatInfos:shouldMixin:80]: [EFN Mixin Loader]Apply Default Mixin: com.hm.efn.mixin.DodgeSkillMixin.class -> yesman.epicfight.skill.dodge.DodgeSkill.class
+[14Feb2026 19:33:13.016] [main/INFO] [STDOUT/]: [com.hm.efn.mixinloader.CompatInfos:shouldMixin:80]: [EFN Mixin Loader]Apply Default Mixin: com.hm.efn.mixin.GuardSkillMixin.class -> yesman.epicfight.skill.guard.GuardSkill.class
+[14Feb2026 19:33:13.017] [main/INFO] [STDOUT/]: [com.hm.efn.mixinloader.CompatInfos:shouldMixin:80]: [EFN Mixin Loader]Apply Default Mixin: com.hm.efn.mixin.LockonMixin.class -> yesman.epicfight.api.client.camera.EpicFightCameraAPI.class
+[14Feb2026 19:33:13.018] [main/INFO] [STDOUT/]: [com.hm.efn.mixinloader.CompatInfos:shouldMixin:80]: [EFN Mixin Loader]Apply Default Mixin: com.hm.efn.mixin.MixinMob.class -> net.minecraft.world.entity.Mob.class
+[14Feb2026 19:33:13.018] [main/INFO] [STDOUT/]: [com.hm.efn.mixinloader.CompatInfos:shouldMixin:80]: [EFN Mixin Loader]Apply Default Mixin: com.hm.efn.mixin.NearestAttackableTargetGoalMixin.class -> net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal.class
+[14Feb2026 19:33:13.019] [main/INFO] [STDOUT/]: [com.hm.efn.mixinloader.CompatInfos:shouldMixin:80]: [EFN Mixin Loader]Apply Default Mixin: com.hm.efn.mixin.ServerPlayerPatchMixin.class -> yesman.epicfight.world.capabilities.entitypatch.player.ServerPlayerPatch.class
+[14Feb2026 19:33:13.019] [main/INFO] [STDOUT/]: [com.hm.efn.mixinloader.CompatInfos:shouldMixin:80]: [EFN Mixin Loader]Apply Default Mixin: com.hm.efn.mixin.SkillMixin.class -> yesman.epicfight.skill.Skill.class
+[14Feb2026 19:33:13.020] [main/INFO] [STDOUT/]: [com.hm.efn.mixinloader.CompatInfos:shouldMixin:80]: [EFN Mixin Loader]Apply Default Mixin: com.hm.efn.mixin.UtilMixin.class -> net.minecraft.Util.class
+[14Feb2026 19:33:13.021] [main/INFO] [STDOUT/]: [com.hm.efn.mixinloader.CompatInfos:shouldMixin:77]: [EFN Mixin Loader]Skip Mixin: com.hm.efn.mixin.compat.cataclysm.MixinIABossMonster.class -> com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.IABoss_monster.class
+[14Feb2026 19:33:13.022] [main/INFO] [STDOUT/]: [com.hm.efn.mixinloader.CompatInfos:shouldMixin:77]: [EFN Mixin Loader]Skip Mixin: com.hm.efn.mixin.compat.cataclysm.MixinLLibraryBossMonster.class -> com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.LLibrary_Boss_Monster.class
+[14Feb2026 19:33:13.023] [main/INFO] [STDOUT/]: [com.hm.efn.mixinloader.CompatInfos:shouldMixin:77]: [EFN Mixin Loader]Skip Mixin: com.hm.efn.mixin.compat.citadel.AnimationHandlerMixin.class -> com.github.alexthe666.citadel.animation.AnimationHandler.class
+[14Feb2026 19:33:13.023] [main/INFO] [STDOUT/]: [com.hm.efn.mixinloader.CompatInfos:shouldMixin:75]: [EFN Mixin Loader]Apply Compat Mixin: com.hm.efn.mixin.compat.geckolib.AnimationProcessorMixin.class -> software.bernie.geckolib.core.animation.AnimationProcessor.class
+[14Feb2026 19:33:13.024] [main/INFO] [STDOUT/]: [com.hm.efn.mixinloader.CompatInfos:shouldMixin:77]: [EFN Mixin Loader]Skip Mixin: com.hm.efn.mixin.compat.lionfishapi.AnimationHandlerMixin.class -> com.github.L_Ender.lionfishapi.server.animation.AnimationHandler.class
+[14Feb2026 19:33:13.042] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/alrex/parcool/common/capability/Animation for invalid dist DEDICATED_SERVER
+[14Feb2026 19:33:13.043] [main/WARN] [mixin/]: Error loading class: com/alrex/parcool/common/capability/Animation (java.lang.RuntimeException: Attempted to load class com/alrex/parcool/common/capability/Animation for invalid dist DEDICATED_SERVER)
+[14Feb2026 19:33:13.043] [main/WARN] [mixin/]: @Mixin target com.alrex.parcool.common.capability.Animation was not found mixins.epicparcool.json:ParCoolMixinAnimation
+[14Feb2026 19:33:13.205] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[14Feb2026 19:33:13.647] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (9.009 s after launch)
+[14Feb2026 19:33:13.754] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[14Feb2026 19:33:13.755] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[14Feb2026 19:33:15.227] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1576 milliseconds
+[14Feb2026 19:33:15.815] [main/WARN] [mixin/]: @Final field f_31427_:[I in mixins.epicfight.json:common.MixinWitherBoss should be final
+[14Feb2026 19:33:15.815] [main/WARN] [mixin/]: @Final field f_31428_:[I in mixins.epicfight.json:common.MixinWitherBoss should be final
+[14Feb2026 19:33:16.788] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[14Feb2026 19:33:16.789] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[14Feb2026 19:33:16.789] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[14Feb2026 19:33:16.789] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[14Feb2026 19:33:16.789] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[14Feb2026 19:33:16.789] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[14Feb2026 19:33:16.789] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[14Feb2026 19:33:16.789] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[14Feb2026 19:33:16.790] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[14Feb2026 19:33:16.790] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[14Feb2026 19:33:16.790] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[14Feb2026 19:33:16.790] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[14Feb2026 19:33:18.287] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : mmorpg
+[14Feb2026 19:33:18.330] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : the_harvest
+[14Feb2026 19:33:18.502] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : dungeon_realm
+[14Feb2026 19:33:18.767] [modloading-worker-0/INFO] [STDOUT/]: [com.robertx22.the_harvest.main.HarvestMain:<init>:229]: The Harvest loaded.
+[14Feb2026 19:33:18.830] [modloading-worker-0/INFO] [dungeon_realm/]: Dungeon Realm loaded.
+[14Feb2026 19:33:18.844] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: GeckolibCompat
+[14Feb2026 19:33:18.845] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: CuriosCompat
+[14Feb2026 19:33:18.846] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: PlayerAnimatorCompat
+[14Feb2026 19:33:19.048] [modloading-worker-0/INFO] [STDOUT/]: [com.tiviacz.travelersbackpack.TravelersBackpack:readOldCommonConfig:178]: curiosIntegration not found in the [common.backpackSettings] section.
+[14Feb2026 19:33:19.077] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : ancient_obelisks
+[14Feb2026 19:33:19.131] [modloading-worker-0/INFO] [STDOUT/]: [com.robertx22.ancient_obelisks.main.ObelisksMain:<init>:245]: Ancient Obelisks loaded.
+[14Feb2026 19:33:19.219] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
+[14Feb2026 19:33:19.219] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
+[14Feb2026 19:33:19.313] [modloading-worker-0/INFO] [Soulslike Weaponry/]: Config initialized!
+[14Feb2026 19:33:19.315] [modloading-worker-0/INFO] [Soulslike Weaponry/]: Successfully initialized Geckolib!
+[14Feb2026 19:33:19.659] [modloading-worker-0/INFO] [Soulslike Weaponry/]: Initializing done, time taken: 507ms
+[14Feb2026 19:33:19.858] [modloading-worker-0/INFO] [STDOUT/]: [com.merlin204.avalon.main.AvalonMOD:<init>:36]: Running in production environment
+[14Feb2026 19:33:19.877] [modloading-worker-0/INFO] [com.merlin204.avalon.main.AvalonMOD/]: 自动注册实体: SHAKE_WAVE -> shake_wave
+[14Feb2026 19:33:19.881] [modloading-worker-0/INFO] [com.merlin204.avalon.main.AvalonMOD/]: 自动注册实体: VFX -> vfx
+[14Feb2026 19:33:19.881] [modloading-worker-0/INFO] [com.merlin204.avalon.main.AvalonMOD/]: 自动注册实体: ANIMATION_TEXTURE_VFX -> animation_texture_vfx
+[14Feb2026 19:33:20.049] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing AOTAConfig from '/workspaces/WingsfieldOficial/servidor_minecraft/config/armoroftheages.json'
+[14Feb2026 19:33:20.069] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : library_of_exile
+[14Feb2026 19:33:20.097] [modloading-worker-0/INFO] [quark/]: Initializing TerraBlender underground biome compat
+[14Feb2026 19:33:20.190] [modloading-worker-0/INFO] [zeta/]: Doing super early config setup for zeta
+[14Feb2026 19:33:20.243] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from '/workspaces/WingsfieldOficial/servidor_minecraft/config/yacl.json5'
+[14Feb2026 19:33:20.433] [modloading-worker-0/INFO] [quark-zeta/]: Discovered 164 modules to load.
+[14Feb2026 19:33:20.434] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Abacus...
+[14Feb2026 19:33:20.439] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Adjustable Chat...
+[14Feb2026 19:33:20.440] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ambient Discs...
+[14Feb2026 19:33:20.441] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Tomes...
+[14Feb2026 19:33:20.452] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Wood...
+[14Feb2026 19:33:20.466] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Armed Armor Stands...
+[14Feb2026 19:33:20.467] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Auto Walk Keybind...
+[14Feb2026 19:33:20.467] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Recipe Unlock...
+[14Feb2026 19:33:20.468] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Tool Restock...
+[14Feb2026 19:33:20.470] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Azalea Wood...
+[14Feb2026 19:33:20.471] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Back Button Keybind...
+[14Feb2026 19:33:20.471] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Backpack...
+[14Feb2026 19:33:20.478] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Beacon Redirection...
+[14Feb2026 19:33:20.479] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Better Elytra Rocket...
+[14Feb2026 19:33:20.479] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Big Stone Clusters...
+[14Feb2026 19:33:20.486] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Blossom Trees...
+[14Feb2026 19:33:20.488] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Bottled Cloud...
+[14Feb2026 19:33:20.490] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Buckets Show Inhabitants...
+[14Feb2026 19:33:20.490] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Camera...
+[14Feb2026 19:33:20.492] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Campfires Boost Elytra...
+[14Feb2026 19:33:20.492] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Celebratory Lamps...
+[14Feb2026 19:33:20.492] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chains Connect Blocks...
+[14Feb2026 19:33:20.493] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chest Searching...
+[14Feb2026 19:33:20.493] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chorus Vegetation...
+[14Feb2026 19:33:20.495] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chute...
+[14Feb2026 19:33:20.496] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Climate Control Remover...
+[14Feb2026 19:33:20.497] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Color Runes...
+[14Feb2026 19:33:20.500] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compasses Work Everywhere...
+[14Feb2026 19:33:20.500] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compressed Blocks...
+[14Feb2026 19:33:20.501] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Coral On Cactus...
+[14Feb2026 19:33:20.503] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Corundum...
+[14Feb2026 19:33:20.515] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crabs...
+[14Feb2026 19:33:20.517] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crafter...
+[14Feb2026 19:33:20.518] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crate...
+[14Feb2026 19:33:20.519] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Diamond Repair...
+[14Feb2026 19:33:20.519] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dispensers Place Blocks...
+[14Feb2026 19:33:20.520] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Double Door Opening...
+[14Feb2026 19:33:20.521] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dragon Scales...
+[14Feb2026 19:33:20.521] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Duskbound Blocks...
+[14Feb2026 19:33:20.522] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dyeable Item Frames...
+[14Feb2026 19:33:20.523] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Easy Transfering...
+[14Feb2026 19:33:20.523] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Elytra Indicator...
+[14Feb2026 19:33:20.524] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Emotes...
+[14Feb2026 19:33:20.524] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantment Predicates...
+[14Feb2026 19:33:20.525] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantments Begone...
+[14Feb2026 19:33:20.525] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ender Watcher...
+[14Feb2026 19:33:20.526] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Endermosh Music Disc...
+[14Feb2026 19:33:20.527] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enhanced Ladders...
+[14Feb2026 19:33:20.528] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Expanded Item Interactions...
+[14Feb2026 19:33:20.529] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fairy Rings...
+[14Feb2026 19:33:20.531] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fallen Logs...
+[14Feb2026 19:33:20.532] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Feeding Trough...
+[14Feb2026 19:33:20.534] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Forgotten...
+[14Feb2026 19:33:20.540] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Foxhound...
+[14Feb2026 19:33:20.541] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Framed Glass...
+[14Feb2026 19:33:20.542] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Game Nerfs...
+[14Feb2026 19:33:20.543] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Item Frame...
+[14Feb2026 19:33:20.545] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Shard...
+[14Feb2026 19:33:20.546] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glimmering Weald...
+[14Feb2026 19:33:20.558] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Bars...
+[14Feb2026 19:33:20.559] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Tools Have Fortune...
+[14Feb2026 19:33:20.562] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grab Chickens...
+[14Feb2026 19:33:20.562] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grate...
+[14Feb2026 19:33:20.564] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gravisand...
+[14Feb2026 19:33:20.566] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Greener Grass...
+[14Feb2026 19:33:20.568] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hedges...
+[14Feb2026 19:33:20.569] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hoe Harvesting...
+[14Feb2026 19:33:20.570] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hollow Logs...
+[14Feb2026 19:33:20.572] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Horses Swim...
+[14Feb2026 19:33:20.573] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hotbar Changer...
+[14Feb2026 19:33:20.573] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Sponges...
+[14Feb2026 19:33:20.574] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Tooltips...
+[14Feb2026 19:33:20.576] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Industrial Palette...
+[14Feb2026 19:33:20.578] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Inventory Sorting...
+[14Feb2026 19:33:20.578] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Iron Rod...
+[14Feb2026 19:33:20.589] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Item Sharing...
+[14Feb2026 19:33:20.591] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Japanese Palette...
+[14Feb2026 19:33:20.591] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Leaf Carpet...
+[14Feb2026 19:33:20.592] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Lock Rotation...
+[14Feb2026 19:33:20.593] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Long Range Pick Block...
+[14Feb2026 19:33:20.593] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magma Keeps Concrete Powder...
+[14Feb2026 19:33:20.594] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magnets...
+[14Feb2026 19:33:20.597] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Map Washing...
+[14Feb2026 19:33:20.598] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Matrix Enchanting...
+[14Feb2026 19:33:20.606] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Metal Buttons...
+[14Feb2026 19:33:20.606] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Microcrafting Helper...
+[14Feb2026 19:33:20.606] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Midori...
+[14Feb2026 19:33:20.607] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Monster Box...
+[14Feb2026 19:33:20.607] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Banner Layers...
+[14Feb2026 19:33:20.607] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Brick Types...
+[14Feb2026 19:33:20.608] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Mud Blocks...
+[14Feb2026 19:33:20.608] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Note Block Sounds...
+[14Feb2026 19:33:20.608] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Potted Plants...
+[14Feb2026 19:33:20.609] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Villagers...
+[14Feb2026 19:33:20.609] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Narrator Readout...
+[14Feb2026 19:33:20.609] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Brick Fence Gate...
+[14Feb2026 19:33:20.610] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Obsidian Spikes...
+[14Feb2026 19:33:20.610] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module New Stone Types...
+[14Feb2026 19:33:20.612] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No Durability On Cosmetics...
+[14Feb2026 19:33:20.613] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No More Lava Pockets...
+[14Feb2026 19:33:20.613] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Obsidian Plate...
+[14Feb2026 19:33:20.613] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Overlay Shader...
+[14Feb2026 19:33:20.614] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Parrot Eggs...
+[14Feb2026 19:33:20.614] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pat The Dogs...
+[14Feb2026 19:33:20.615] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pathfinder Maps...
+[14Feb2026 19:33:20.618] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Permafrost...
+[14Feb2026 19:33:20.619] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Petals On Water...
+[14Feb2026 19:33:20.619] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pickarang...
+[14Feb2026 19:33:20.621] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pig Litters...
+[14Feb2026 19:33:20.622] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pipes...
+[14Feb2026 19:33:20.624] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pistons Move Tile Entities...
+[14Feb2026 19:33:20.625] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Poison Potato Usage...
+[14Feb2026 19:33:20.626] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Quick Armor Swapping...
+[14Feb2026 19:33:20.626] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rainbow Lamps...
+[14Feb2026 19:33:20.627] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Raw Metal Bricks...
+[14Feb2026 19:33:20.627] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Reacharound Placing...
+[14Feb2026 19:33:20.628] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Redstone Randomizer...
+[14Feb2026 19:33:20.630] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Renewable Spore Blossoms...
+[14Feb2026 19:33:20.630] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Replace Scaffolding...
+[14Feb2026 19:33:20.630] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rope...
+[14Feb2026 19:33:20.632] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Safer Creatures...
+[14Feb2026 19:33:20.632] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Seed Pouch...
+[14Feb2026 19:33:20.634] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shear Vines...
+[14Feb2026 19:33:20.641] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shiba...
+[14Feb2026 19:33:20.641] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shingles...
+[14Feb2026 19:33:20.641] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shulker Packing...
+[14Feb2026 19:33:20.642] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Simple Harvest...
+[14Feb2026 19:33:20.643] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Skull Pikes...
+[14Feb2026 19:33:20.644] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slabs To Blocks...
+[14Feb2026 19:33:20.644] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slime In A Bucket...
+[14Feb2026 19:33:20.645] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slimes To Magma Cubes...
+[14Feb2026 19:33:20.646] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Snow Golem Player Heads...
+[14Feb2026 19:33:20.646] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Candles...
+[14Feb2026 19:33:20.646] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Sandstone...
+[14Feb2026 19:33:20.647] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spawner Replacer...
+[14Feb2026 19:33:20.647] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spiral Spires...
+[14Feb2026 19:33:20.648] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stonelings...
+[14Feb2026 19:33:20.649] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stools...
+[14Feb2026 19:33:20.650] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Sturdy Stone...
+[14Feb2026 19:33:20.650] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Thatch...
+[14Feb2026 19:33:20.652] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Tiny Potato...
+[14Feb2026 19:33:20.653] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Torch Arrow...
+[14Feb2026 19:33:20.654] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Toretoise...
+[14Feb2026 19:33:20.655] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Totem Of Holding...
+[14Feb2026 19:33:20.656] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Trowel...
+[14Feb2026 19:33:20.657] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Usage Ticker...
+[14Feb2026 19:33:20.658] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Uses For Curses...
+[14Feb2026 19:33:20.658] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Utility Recipes...
+[14Feb2026 19:33:20.659] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Animal Textures...
+[14Feb2026 19:33:20.660] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Bookshelves...
+[14Feb2026 19:33:20.660] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Chests...
+[14Feb2026 19:33:20.672] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Furnaces...
+[14Feb2026 19:33:20.679] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Ladders...
+[14Feb2026 19:33:20.680] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Selector...
+[14Feb2026 19:33:20.682] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Planks...
+[14Feb2026 19:33:20.682] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Slabs...
+[14Feb2026 19:33:20.694] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vexes Die With Their Masters...
+[14Feb2026 19:33:20.695] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villager Rerolling Rework...
+[14Feb2026 19:33:20.697] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villagers Follow Emeralds...
+[14Feb2026 19:33:20.698] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wooden Posts...
+[14Feb2026 19:33:20.700] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wool Shuts Up Minecarts...
+[14Feb2026 19:33:20.700] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wraith...
+[14Feb2026 19:33:20.702] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Zombie Villagers On Normal...
+[14Feb2026 19:33:20.702] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Stone Variants...
+[14Feb2026 19:33:20.703] [modloading-worker-0/INFO] [quark-zeta/]: Constructed 164 modules.
+[14Feb2026 19:33:20.769] [modloading-worker-0/INFO] [quark-zeta/]: Doing super early config setup for quark
+[14Feb2026 19:33:23.903] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[14Feb2026 19:33:23.906] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
+[14Feb2026 19:33:24.961] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class yesman.epicfight.world.capabilities.entitypatch.player.PlayerPatch
+[14Feb2026 19:33:24.983] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.TamableAnimal from class reascer.wom.world.entity.mob.EnderHand
+[14Feb2026 19:33:24.983] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.TamableAnimal from class reascer.wom.world.entity.mob.TargetingHelper
+[14Feb2026 19:33:25.019] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[14Feb2026 19:33:25.019] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[14Feb2026 19:33:25.020] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[14Feb2026 19:33:25.020] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[14Feb2026 19:33:25.020] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[14Feb2026 19:33:25.021] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[14Feb2026 19:33:25.021] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[14Feb2026 19:33:25.022] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[14Feb2026 19:33:25.022] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[14Feb2026 19:33:25.514] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 20
+[14Feb2026 19:33:25.518] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.20.1
+[14Feb2026 19:33:25.616] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[14Feb2026 19:33:25.623] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[14Feb2026 19:33:25.624] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[14Feb2026 19:33:25.624] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[14Feb2026 19:33:25.657] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_stat_condition already exists as seriazable: random_roll
+[14Feb2026 19:33:25.833] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_gear_rarity already exists as seriazable: common
+[14Feb2026 19:33:25.833] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_gear_rarity already exists as seriazable: uncommon
+[14Feb2026 19:33:25.836] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: library_of_exile_item_requirement already exists as seriazable: is_map
+[14Feb2026 19:33:25.923] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[14Feb2026 19:33:25.924] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[14Feb2026 19:33:25.930] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[14Feb2026 19:33:25.930] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[14Feb2026 19:33:25.937] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Found status: BETA_OUTDATED Current: 21.0.4 Target: 21.0.5
+[14Feb2026 19:33:25.937] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[14Feb2026 19:33:25.959] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[14Feb2026 19:33:25.960] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[14Feb2026 19:33:25.960] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[14Feb2026 19:33:25.960] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[14Feb2026 19:33:25.961] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[14Feb2026 19:33:25.961] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[14Feb2026 19:33:25.961] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[14Feb2026 19:33:25.965] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading FD animations...
+[14Feb2026 19:33:25.965] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_idle
+[14Feb2026 19:33:25.972] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.39 Target: null
+[14Feb2026 19:33:25.974] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_lukis_grandcapitals] Starting version check at https://api.modrinth.com/updates/8Lw09aLb/forge_updates.json
+[14Feb2026 19:33:25.989] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_boom_attack
+[14Feb2026 19:33:25.995] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_attack
+[14Feb2026 19:33:26.002] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_roll_up
+[14Feb2026 19:33:26.007] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_roll_up_end
+[14Feb2026 19:33:26.017] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_second_phase_prepare
+[14Feb2026 19:33:26.021] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_second_phase_strike_walls
+[14Feb2026 19:33:26.026] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_roll_up_just_end
+[14Feb2026 19:33:26.031] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_roll
+[14Feb2026 19:33:26.039] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_roll_roll
+[14Feb2026 19:33:26.044] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_cast
+[14Feb2026 19:33:26.049] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_earthquake_cast
+[14Feb2026 19:33:26.054] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_rockfall_cast
+[14Feb2026 19:33:26.062] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:electric_orb_idle
+[14Feb2026 19:33:26.062] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_crystal_spawn
+[14Feb2026 19:33:26.063] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_monolith_idle
+[14Feb2026 19:33:26.064] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_monolith_turn_off
+[14Feb2026 19:33:26.064] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:kinetic_field_spawn
+[14Feb2026 19:33:26.065] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_appear
+[14Feb2026 19:33:26.073] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_screen_appear
+[14Feb2026 19:33:26.080] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_death
+[14Feb2026 19:33:26.095] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:ray_reflector_activate
+[14Feb2026 19:33:26.096] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:test_malkuth
+[14Feb2026 19:33:26.104] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_idle
+[14Feb2026 19:33:26.111] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_slash_fire
+[14Feb2026 19:33:26.119] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_slash_ice
+[14Feb2026 19:33:26.125] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_jump_forward_prepare
+[14Feb2026 19:33:26.133] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_jump_crush_attack_start
+[14Feb2026 19:33:26.140] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_jump_crush_attack_midair
+[14Feb2026 19:33:26.153] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_jump_crush_attack_end
+[14Feb2026 19:33:26.163] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_pull_and_punch
+[14Feb2026 19:33:26.169] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_screen_appear
+[14Feb2026 19:33:26.175] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_screen_idle
+[14Feb2026 19:33:26.181] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_crush_attack_attack
+[14Feb2026 19:33:26.184] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_cannon_shoot
+[14Feb2026 19:33:26.186] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_cannon_break
+[14Feb2026 19:33:26.186] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_cannon_repair
+[14Feb2026 19:33:26.187] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_cannon_summon
+[14Feb2026 19:33:26.187] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_jump_and_land
+[14Feb2026 19:33:26.193] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_jump_with_crush
+[14Feb2026 19:33:26.199] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_jump_crush_attack_full
+[14Feb2026 19:33:26.203] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[14Feb2026 19:33:26.205] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_sword_forward
+[14Feb2026 19:33:26.210] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_carousel_slash_1
+[14Feb2026 19:33:26.216] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_giant_sword_attack
+[14Feb2026 19:33:26.221] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_single_earthquake_fire
+[14Feb2026 19:33:26.226] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_single_earthquake_ice
+[14Feb2026 19:33:26.232] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_summon_throw_side_stones
+[14Feb2026 19:33:26.237] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_jump_to_float
+[14Feb2026 19:33:26.243] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_float
+[14Feb2026 19:33:26.248] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_summon_fireballs
+[14Feb2026 19:33:26.253] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_crystal_summon
+[14Feb2026 19:33:26.254] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_summon_anim
+[14Feb2026 19:33:26.259] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_warrior_idle
+[14Feb2026 19:33:26.260] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_warrior_attack
+[14Feb2026 19:33:26.261] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_warrior_walk
+[14Feb2026 19:33:26.263] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_warrior_slam_earth
+[14Feb2026 19:33:26.264] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_warrior_die
+[14Feb2026 19:33:26.266] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_death
+[14Feb2026 19:33:26.279] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:geburah_stomp
+[14Feb2026 19:33:26.280] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:geburah_fire_all_cannons
+[14Feb2026 19:33:26.281] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:justice_hammer_smack
+[14Feb2026 19:33:26.282] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:geburah_tilt_left
+[14Feb2026 19:33:26.282] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:geburah_tilt_right
+[14Feb2026 19:33:26.283] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:judgement_bird_fly
+[14Feb2026 19:33:26.283] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:judgement_bird_cast
+[14Feb2026 19:33:26.284] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:geburah_bell_ring
+[14Feb2026 19:33:26.284] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:geburah_appear
+[14Feb2026 19:33:26.285] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_item_idle
+[14Feb2026 19:33:26.285] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_item_use
+[14Feb2026 19:33:26.286] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_fist_flying
+[14Feb2026 19:33:26.287] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_fist_grab
+[14Feb2026 19:33:26.287] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:divine_gear_idle
+[14Feb2026 19:33:26.287] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:divine_gear_summon
+[14Feb2026 19:33:26.287] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:divine_gear_death
+[14Feb2026 19:33:26.288] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:divine_gear_item_idle
+[14Feb2026 19:33:26.288] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdlib:testanim
+[14Feb2026 19:33:26.289] [main/INFO] [com.finderfeed.fdlib.FDLib/]: FD Animations loaded!
+[14Feb2026 19:33:26.290] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading FD models...
+[14Feb2026 19:33:26.290] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:chesed
+[14Feb2026 19:33:26.303] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:chesed
+[14Feb2026 19:33:26.307] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:chesed
+[14Feb2026 19:33:26.310] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:electric_orb
+[14Feb2026 19:33:26.311] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:chesed_crystal
+[14Feb2026 19:33:26.311] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:chesed_monolith
+[14Feb2026 19:33:26.312] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:chesed_kinetic_field
+[14Feb2026 19:33:26.314] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:boss_spawner
+[14Feb2026 19:33:26.316] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:boss_spawner
+[14Feb2026 19:33:26.317] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:chesed_ray_reflector
+[14Feb2026 19:33:26.319] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:wip
+[14Feb2026 19:33:26.320] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth
+[14Feb2026 19:33:26.324] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_screen
+[14Feb2026 19:33:26.330] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_sword
+[14Feb2026 19:33:26.331] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_crush_attack
+[14Feb2026 19:33:26.337] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_cannon
+[14Feb2026 19:33:26.338] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_cannon_projectile
+[14Feb2026 19:33:26.339] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_earthquake_part
+[14Feb2026 19:33:26.339] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_lukis_grandcapitals] Found status: OUTDATED Current: 1.1.2 Target: 1.1.3+mod
+[14Feb2026 19:33:26.339] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_boulder_ice
+[14Feb2026 19:33:26.339] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14Feb2026 19:33:26.341] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_boulder_fire
+[14Feb2026 19:33:26.342] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_platform
+[14Feb2026 19:33:26.343] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_repair_crystal
+[14Feb2026 19:33:26.344] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_boss_spawner
+[14Feb2026 19:33:26.346] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_warrior
+[14Feb2026 19:33:26.347] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:geburah
+[14Feb2026 19:33:26.352] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:geburah_no_core
+[14Feb2026 19:33:26.357] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:judgement_ball
+[14Feb2026 19:33:26.357] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:judgement_ball
+[14Feb2026 19:33:26.357] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:justice_hammer
+[14Feb2026 19:33:26.358] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:judgement_bird
+[14Feb2026 19:33:26.363] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:judgement_bird
+[14Feb2026 19:33:26.363] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:geburah_bell
+[14Feb2026 19:33:26.363] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:justitia
+[14Feb2026 19:33:26.364] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:chesed_item
+[14Feb2026 19:33:26.364] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_fist
+[14Feb2026 19:33:26.365] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_fist
+[14Feb2026 19:33:26.365] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_fist_flying
+[14Feb2026 19:33:26.365] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:divine_gear
+[14Feb2026 19:33:26.366] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdlib:test
+[14Feb2026 19:33:26.368] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdlib:test
+[14Feb2026 19:33:26.368] [main/INFO] [com.finderfeed.fdlib.FDLib/]: FD Models loaded!
+[14Feb2026 19:33:26.371] [main/INFO] [zeta/]: Common setup: Performing initial refresh of zeta's config on thread 'main'
+[14Feb2026 19:33:26.372] [main/INFO] [zeta/]: 'zeta' is enabling Zeta's piston structure resolver.
+[14Feb2026 19:33:26.378] [main/INFO] [zeta/]: Waiting for server start before accepting filewatcher changes to zeta's config
+[14Feb2026 19:33:26.379] [main/INFO] [terrablender/]: Registered region quark:biome_provider to index 4 for type OVERWORLD
+[14Feb2026 19:33:26.380] [main/INFO] [quark-zeta/]: Common setup: Performing initial refresh of quark's config on thread 'main'
+[14Feb2026 19:33:26.405] [main/INFO] [quark-zeta/]: Waiting for server start before accepting filewatcher changes to quark's config
+[14Feb2026 19:33:26.444] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.10 Target: null
+[14Feb2026 19:33:26.446] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[14Feb2026 19:33:26.831] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 41 compatible attributes.
+[14Feb2026 19:33:26.834] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 41 values from config.
+[14Feb2026 19:33:26.842] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 41 entries.
+[14Feb2026 19:33:26.842] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 41 attributes.
+[14Feb2026 19:33:26.956] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: OUTDATED Current: 1.20.1-2.6.11 Target: 1.20.1-2.6.12
+[14Feb2026 19:33:26.956] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancedcompass] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/adcompass.json
+[14Feb2026 19:33:26.972] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancedcompass] Found status: UP_TO_DATE Current: 1.2.15 Target: null
+[14Feb2026 19:33:27.205] [main/INFO] [epicfight/]: Data keys [invincible:up, invincible:down, invincible:left, invincible:parry_timer, invincible:right, invincible:dodge_success_timer, invincible:cooldown] for invincible:combo_demo
+[14Feb2026 19:33:27.205] [main/INFO] [epicfight/]: Data keys [epicfight:combo_counter, epicfight:basic_attack_active] for epicfight:basic_attack
+[14Feb2026 19:33:27.205] [main/INFO] [epicfight/]: Data keys [epicfight:penalty_restore_counter, epicfight:penalty] for epicfight:guard
+[14Feb2026 19:33:27.205] [main/INFO] [epicfight/]: Data keys [epicfight:penalty_restore_counter, epicfight:last_active, epicfight:parry_motion_counter, epicfight:penalty] for epicfight:parrying
+[14Feb2026 19:33:27.206] [main/INFO] [epicfight/]: Data keys [epicfight:penalty_restore_counter, epicfight:penalty] for epicfight:impact_guard
+[14Feb2026 19:33:27.206] [main/INFO] [epicfight/]: Data keys [epicfight:stacks, epicfight:tick_record, epicfight:resisting_damage_type] for epicfight:adaptive_skin
+[14Feb2026 19:33:27.206] [main/INFO] [epicfight/]: Data keys [epicfight:tick_record] for epicfight:adrenaline_fiend
+[14Feb2026 19:33:27.206] [main/INFO] [epicfight/]: Data keys [epicfight:entity_id, epicfight:stacks] for epicfight:bonebreaker
+[14Feb2026 19:33:27.206] [main/INFO] [epicfight/]: Data keys [epicfight:entity_id, epicfight:tick_record] for epicfight:vengeance
+[14Feb2026 19:33:27.206] [main/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall, epicfight:fall_distance] for epicfight:meteor_slam
+[14Feb2026 19:33:27.207] [main/INFO] [epicfight/]: Data keys [epicfight:stacks] for epicfight:revelation
+[14Feb2026 19:33:27.207] [main/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall] for epicfight:demolition_leap
+[14Feb2026 19:33:27.207] [main/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall, epicfight:jump_key_pressed_last_tick, epicfight:jump_count] for epicfight:phantom_ascent
+[14Feb2026 19:33:27.207] [main/INFO] [epicfight/]: Data keys [epicfight:last_hit_count] for epicfight:grasping_spire
+[14Feb2026 19:33:27.207] [main/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu_passive
+[14Feb2026 19:33:27.207] [main/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu
+[14Feb2026 19:33:27.208] [main/INFO] [epicfight/]: Data keys [epicfight:combo_counter] for epicfight:blade_rush
+[14Feb2026 19:33:27.208] [main/INFO] [epicfight/]: Data keys [epicfight:thrown_trident_entity_id] for epicfight:everlasting_allegiance
+[14Feb2026 19:33:27.208] [main/INFO] [epicfight/]: Data keys [wom:target_id] for wom:ender_obscuris
+[14Feb2026 19:33:27.208] [main/INFO] [epicfight/]: Data keys [wom:dodge, wom:timer, wom:timer_refresh] for wom:dodge_master
+[14Feb2026 19:33:27.208] [main/INFO] [epicfight/]: Data keys [wom:dodge, wom:timer, wom:cooldown, wom:registered_health, wom:active, wom:registered_position, wom:timer_refresh] for wom:time_travel
+[14Feb2026 19:33:27.208] [main/INFO] [epicfight/]: Data keys [wom:cooldown] for wom:punishment_kick
+[14Feb2026 19:33:27.208] [main/INFO] [epicfight/]: Data keys [wom:parrying, epicfight:penalty_restore_counter, wom:consumprion_value, wom:last_active, epicfight:penalty] for wom:counter_attack
+[14Feb2026 19:33:27.209] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:cooldown, epicfight:penalty_restore_counter, wom:holding_stance, wom:consumprion_value, wom:vengence_duration, wom:timer_refresh, wom:charge, epicfight:penalty] for wom:vengeful_parry
+[14Feb2026 19:33:27.209] [main/INFO] [epicfight/]: Data keys [wom:parrying, wom:cooldown, epicfight:penalty_restore_counter, wom:charge, epicfight:penalty] for wom:perfect_bulwark
+[14Feb2026 19:33:27.209] [main/INFO] [epicfight/]: Data keys [wom:cycle, wom:charge] for wom:soul_protection
+[14Feb2026 19:33:27.209] [main/INFO] [epicfight/]: Data keys [wom:cycle, wom:charge] for wom:shulker_cloak
+[14Feb2026 19:33:27.209] [main/INFO] [epicfight/]: Data keys [wom:timer, epicfight:penalty_restore_counter, wom:active, epicfight:penalty] for wom:buster_parade
+[14Feb2026 19:33:27.209] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:duree, wom:active, wom:timer_refresh] for wom:pain_anticipation
+[14Feb2026 19:33:27.209] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:duree, wom:active, wom:timer_refresh] for wom:latent_retribution
+[14Feb2026 19:33:27.210] [main/INFO] [epicfight/]: Data keys [wom:power, wom:rate] for wom:critical_knowledge
+[14Feb2026 19:33:27.210] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:recovery_rate, wom:max_shield] for wom:heart_shield
+[14Feb2026 19:33:27.210] [main/INFO] [epicfight/]: Data keys [wom:saved_elapsed_time, wom:melody_index, wom:step] for wom:dancing_blade
+[14Feb2026 19:33:27.210] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:cycle, wom:stage, wom:duree, wom:active, wom:timer_refresh] for wom:meditation
+[14Feb2026 19:33:27.210] [main/INFO] [epicfight/]: Data keys [wom:cooldown] for wom:dopamine
+[14Feb2026 19:33:27.210] [main/INFO] [epicfight/]: Data keys [wom:last_active] for wom:manipulator
+[14Feb2026 19:33:27.210] [main/INFO] [epicfight/]: Data keys [wom:power, wom:timer, wom:stack, wom:rate] for wom:lethal_focus
+[14Feb2026 19:33:27.210] [main/INFO] [epicfight/]: Data keys [wom:wall_glide, wom:timer, wom:wall_running, wom:jump_key_up, wom:angle, wom:timer_refresh] for wom:spider_techniques
+[14Feb2026 19:33:27.211] [main/INFO] [epicfight/]: Data keys [wom:water_dashing, wom:cooldown, wom:jump_key_up, wom:consumprion_value, wom:mermaid_movement, wom:diving, wom:crawling] for wom:aqua_maneuvre
+[14Feb2026 19:33:27.211] [main/INFO] [epicfight/]: Data keys [wom:wall_glide, wom:timer, wom:stage, wom:wall_running, wom:consumprion_value, wom:active, wom:buffing, wom:verso] for wom:natural_sprinter
+[14Feb2026 19:33:27.211] [main/INFO] [epicfight/]: Data keys [wom:timer] for wom:lunatic_vivacity
+[14Feb2026 19:33:27.211] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:registered_health, wom:consumprion_value] for wom:voodoo_magic
+[14Feb2026 19:33:27.211] [main/INFO] [epicfight/]: Data keys [wom:target_id, wom:target_distance] for wom:back_and_forth
+[14Feb2026 19:33:27.211] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:combo] for wom:shooting_style
+[14Feb2026 19:33:27.211] [main/INFO] [epicfight/]: Data keys [wom:timer] for wom:proximity_exploiter
+[14Feb2026 19:33:27.211] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:stack] for wom:all_eyes_on_you
+[14Feb2026 19:33:27.211] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:stack] for wom:all_eyes_on_me
+[14Feb2026 19:33:27.211] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:cooldown] for wom:avatar_of_might
+[14Feb2026 19:33:27.211] [main/INFO] [epicfight/]: Data keys [wom:stack, wom:attacks, wom:active] for wom:agony_plunge
+[14Feb2026 19:33:27.211] [main/INFO] [epicfight/]: Data keys [wom:charging_time, wom:charged_attack, wom:timer, wom:charging, wom:charged, wom:movespeed, wom:active, wom:saved_charge, wom:timer_refresh] for wom:torment_passive
+[14Feb2026 19:33:27.211] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:active, wom:timer_refresh] for wom:true_berserk
+[14Feb2026 19:33:27.211] [main/INFO] [epicfight/]: Data keys [wom:stack] for wom:herrscher_passive
+[14Feb2026 19:33:27.212] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:redemptioon, wom:buffing, wom:timer_refresh, wom:strenght, wom:verso, wom:buffed, wom:expiation] for wom:plunder_perdition
+[14Feb2026 19:33:27.212] [main/INFO] [epicfight/]: Data keys [wom:sheath] for wom:satsujin_passive
+[14Feb2026 19:33:27.212] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:holding_stance, wom:stack, wom:charging, wom:timedslash, wom:timer_refresh, wom:second_draw, wom:cooldown, wom:frequency, wom:attacks, wom:damage, wom:active, wom:saved_charge, wom:charge] for wom:sakura_state
+[14Feb2026 19:33:27.212] [main/INFO] [epicfight/]: Data keys [wom:nofalldamage, wom:shoot, wom:using_item, wom:cooldown, wom:combo, wom:zoom, wom:reload_cooldown] for wom:ender_blast
+[14Feb2026 19:33:27.212] [main/INFO] [epicfight/]: Data keys [wom:nofalldamage, wom:shoot, wom:using_item, wom:cooldown, wom:combo, wom:side, wom:zoom, wom:reload_cooldown] for wom:ender_fusion
+[14Feb2026 19:33:27.212] [main/INFO] [epicfight/]: Data keys [wom:guard_point_result, wom:charging_time, wom:parrying, wom:cooldown, wom:holding_stance, wom:guard_point, wom:combo, wom:charged, wom:gesetz_sprengkopf] for wom:regierung
+[14Feb2026 19:33:27.212] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:lunar_eclipse_stack, wom:echo, wom:crescent, wom:timer_refresh] for wom:lunar_eclipse
+[14Feb2026 19:33:27.212] [main/INFO] [epicfight/]: Data keys [wom:idle, wom:verso] for wom:lunar_echo_passive
+[14Feb2026 19:33:27.212] [main/INFO] [epicfight/]: Data keys [wom:ascending, wom:shoot, wom:darkness_target_reaped, wom:blackhole, wom:timer, wom:zoom_cooldown, wom:darkness_activate_portal, wom:witherccatharsis, wom:zoom, wom:shoot_cooldown, wom:darkness_target, wom:timer_refresh, wom:witheraftereffect, wom:blackhole_timer, wom:darkness_portal_angle, wom:serius_focus_cooldown, wom:blackhole_vec, wom:darkness_target_vec, wom:darkness_target_hited, wom:darkness_portal_timer, wom:darkness_portal_vec, wom:active, wom:serius_focus, wom:blackhole_active] for wom:demonic_ascension
+[14Feb2026 19:33:27.212] [main/INFO] [epicfight/]: Data keys [wom:catharsis, wom:particle, wom:idle, wom:lapse, wom:basic_attack, wom:blink, wom:withercurse] for wom:demon_mark_passive
+[14Feb2026 19:33:27.212] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:cycle, wom:charging, wom:heating_speed, wom:particle, wom:stored_heat_level, wom:solar_obscuridad_ta_timer, wom:heat_level, wom:timer_refresh, wom:timed_attack, wom:solar_obscuridad, wom:solar_crematorio, wom:solar_infernio, wom:charge] for wom:solar_arcano
+[14Feb2026 19:33:27.213] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:cycle, wom:charging, wom:heating_speed, wom:particle, wom:stored_heat_level, wom:solar_obscuridad_ta_timer, wom:heat_level, wom:timer_refresh, wom:timed_attack, wom:solar_obscuridad, wom:solar_crematorio, wom:solar_infernio, wom:charge] for wom:solar_passive
+[14Feb2026 19:33:27.213] [main/INFO] [epicfight/]: Data keys [wom:serius_focus_cooldown, wom:serius_focus] for wom:rechargement
+[14Feb2026 19:33:27.213] [main/INFO] [epicfight/]: Data keys [wom:bullet_loaded, wom:bullet_loaded_old, wom:super_reload, wom:bullet_overloaded, wom:shell_anim, wom:active, wom:shell_number, wom:shell_delay] for wom:napoleon_passive
+[14Feb2026 19:33:27.213] [main/INFO] [epicfight/]: Data keys [efn:current_puncture_chance, efn:max_puncture_chance, efn:base_puncture_chance, efn:puncture_increment] for efn:parry_master
+[14Feb2026 19:33:27.213] [main/INFO] [epicfight/]: Data keys [efn:buff_active, efn:defense_start_tick, efn:buff_end_tick] for efn:precise_parry
+[14Feb2026 19:33:27.213] [main/INFO] [epicfight/]: Data keys [efn:cooldown] for efn:judgementcutend
+[14Feb2026 19:33:27.213] [main/INFO] [epicfight/]: Data keys [efn:cooldown] for efn:stomp
+[14Feb2026 19:33:27.213] [main/INFO] [epicfight/]: Data keys [efn:cooldown] for efn:execution
+[14Feb2026 19:33:27.213] [main/INFO] [epicfight/]: Data keys [efn:efn_last_parry_time, efn:efn_last_active, efn:efn_parry_motion_counter, efn:efn_shake_detected, efn:efn_first_shake, epicfight:penalty_restore_counter, efn:efn_last_guard_start_tick, efn:efn_delay_protection_end, efn:efn_shake_penalty_count, efn:efn_starting_parry, efn:efn_last_successful_defense_tick, epicfight:penalty] for efn:efn_parry
+[14Feb2026 19:33:27.213] [main/INFO] [epicfight/]: Data keys [efn:down_key, invincible:up, efn:press_summon_sword, efn:pressing_key2, invincible:left, invincible:parry_timer, efn:is_pressing, efn:demon_key, efn:key1_press_timer, invincible:dodge_success_timer, efn:pressing_key4, efn:charge_ticks, efn:sneak_key, efn:press_key2, efn:press_key1, efn:charge_power, efn:force_release, efn:cooldown, efn:charge_message, efn:sprint_key, efn:up_key, efn:angel_key, efn:pressing_key1, invincible:right, efn:press_key3, efn:press_doppelganger, efn:have_doppelganger, efn:press_key4, efn:doppelganger_tick, efn:key3_press_timer, efn:innate_press_timer, invincible:down, efn:doppelganger_style, efn:energy_check, efn:press_innate, efn:jump_key, efn:pressing_key3, efn:key4_press_timer, efn:charge_stage, efn:doppelganger_delay, efn:pressing_innate, efn:key2_press_timer, efn:is_charging, efn:full_charge_message, efn:combo_counter, invincible:cooldown] for efn:yamato
+[14Feb2026 19:33:27.214] [main/INFO] [epicfight/]: Data keys [efn:parry_cooldown, efn:doppelganger_style, efn:doppelganger_delay, efn:stun_cooldown, efn:have_doppelganger, efn:doppelganger_tick] for efn:yamato_passive
+[14Feb2026 19:33:27.214] [main/INFO] [epicfight/]: Data keys [efn:down_key, invincible:up, efn:pressing_key2, invincible:left, invincible:parry_timer, efn:is_pressing, efn:replay_enhanced, efn:demon_key, efn:key1_press_timer, invincible:dodge_success_timer, efn:pressing_key4, efn:charge_ticks, efn:sneak_key, efn:press_key2, efn:press_key1, efn:charge_power, efn:force_release, efn:cooldown, efn:damage_history, efn:charge_message, efn:sprint_key, efn:up_key, efn:angel_key, efn:pressing_key1, invincible:right, efn:press_key3, efn:is_replay_damage, efn:press_key4, efn:key3_press_timer, efn:innate_press_timer, invincible:down, efn:energy_check, efn:press_innate, efn:jump_key, efn:pressing_key3, efn:key4_press_timer, efn:charge_stage, efn:pressing_innate, efn:key2_press_timer, efn:is_charging, efn:full_charge_message, efn:combo_counter, invincible:cooldown] for efn:shortsword
+[14Feb2026 19:33:27.214] [main/INFO] [epicfight/]: Data keys [efn:down_key, invincible:up, efn:pressing_key2, invincible:left, invincible:parry_timer, efn:is_pressing, efn:demon_key, efn:key1_press_timer, invincible:dodge_success_timer, efn:pressing_key4, efn:charge_ticks, efn:sneak_key, efn:press_key2, efn:press_key1, efn:charge_power, efn:force_release, efn:cooldown, efn:charge_message, efn:sprint_key, efn:up_key, efn:angel_key, efn:pressing_key1, invincible:right, efn:press_key3, efn:press_key4, efn:key3_press_timer, efn:innate_press_timer, invincible:down, efn:energy_check, efn:press_innate, efn:jump_key, efn:pressing_key3, efn:key4_press_timer, efn:charge_stage, efn:pressing_innate, efn:key2_press_timer, efn:is_charging, efn:full_charge_message, efn:combo_counter, invincible:cooldown] for efn:ruinsgreatsword
+[14Feb2026 19:33:27.214] [main/INFO] [epicfight/]: Data keys [efn:down_key, invincible:up, efn:pressing_key2, invincible:left, invincible:parry_timer, efn:is_pressing, efn:demon_key, efn:key1_press_timer, invincible:dodge_success_timer, efn:pressing_key4, efn:charge_ticks, efn:sneak_key, efn:press_key2, efn:press_key1, efn:charge_power, efn:force_release, efn:cooldown, efn:charge_message, efn:sprint_key, efn:up_key, efn:angel_key, efn:pressing_key1, invincible:right, efn:press_key3, efn:press_key4, efn:key3_press_timer, efn:innate_press_timer, invincible:down, efn:energy_check, efn:press_innate, efn:jump_key, efn:pressing_key3, efn:key4_press_timer, efn:charge_stage, efn:pressing_innate, efn:key2_press_timer, efn:is_charging, efn:full_charge_message, efn:combo_counter, invincible:cooldown] for efn:pioneer
+[14Feb2026 19:33:27.214] [main/INFO] [epicfight/]: Data keys [efn:down_key, invincible:up, efn:pressing_key2, invincible:left, invincible:parry_timer, efn:is_pressing, efn:demon_key, efn:key1_press_timer, invincible:dodge_success_timer, efn:pressing_key4, efn:charge_ticks, efn:sneak_key, efn:press_key2, efn:press_key1, efn:charge_power, efn:force_release, efn:cooldown, efn:charge_message, efn:sprint_key, efn:up_key, efn:angel_key, efn:pressing_key1, invincible:right, efn:press_key3, efn:press_key4, efn:key3_press_timer, efn:innate_press_timer, invincible:down, efn:energy_check, efn:press_innate, efn:jump_key, efn:pressing_key3, efn:key4_press_timer, efn:charge_stage, efn:pressing_innate, efn:key2_press_timer, efn:is_charging, efn:full_charge_message, efn:combo_counter, invincible:cooldown] for efn:meenlance
+[14Feb2026 19:33:27.215] [main/INFO] [epicfight/]: Data keys [efn:down_key, invincible:up, efn:pressing_key2, invincible:left, invincible:parry_timer, efn:is_pressing, efn:demon_key, efn:key1_press_timer, invincible:dodge_success_timer, efn:pressing_key4, efn:charge_ticks, efn:sneak_key, efn:press_key2, efn:press_key1, efn:charge_power, efn:force_release, efn:cooldown, efn:charge_message, efn:sprint_key, efn:up_key, efn:angel_key, efn:pressing_key1, invincible:right, efn:press_key3, efn:press_key4, efn:key3_press_timer, efn:innate_press_timer, invincible:down, efn:energy_check, efn:press_innate, efn:jump_key, efn:pressing_key3, efn:key4_press_timer, efn:charge_stage, efn:pressing_innate, efn:key2_press_timer, efn:is_charging, efn:full_charge_message, efn:combo_counter, invincible:cooldown] for efn:exsiliumgladius
+[14Feb2026 19:33:27.215] [main/INFO] [epicfight/]: Data keys [efn:down_key, invincible:up, efn:pressing_key2, invincible:left, invincible:parry_timer, efn:is_pressing, efn:demon_key, efn:key1_press_timer, invincible:dodge_success_timer, efn:pressing_key4, efn:charge_ticks, efn:sneak_key, efn:press_key2, efn:press_key1, efn:charge_power, efn:force_release, efn:cooldown, efn:charge_message, efn:sprint_key, efn:up_key, efn:angel_key, efn:pressing_key1, invincible:right, efn:press_key3, efn:press_key4, efn:key3_press_timer, efn:innate_press_timer, invincible:down, efn:energy_check, efn:press_innate, efn:jump_key, efn:pressing_key3, efn:key4_press_timer, efn:charge_stage, efn:pressing_innate, efn:key2_press_timer, efn:is_charging, efn:full_charge_message, efn:combo_counter, invincible:cooldown] for efn:bloodlust
+[14Feb2026 19:33:27.215] [main/INFO] [epicfight/]: Data keys [efn:down_key, invincible:up, efn:pressing_key2, invincible:left, invincible:parry_timer, efn:is_pressing, efn:demon_key, efn:key1_press_timer, invincible:dodge_success_timer, efn:pressing_key4, efn:charge_ticks, efn:sneak_key, efn:press_key2, efn:press_key1, efn:charge_power, efn:force_release, efn:cooldown, efn:charge_message, efn:sprint_key, efn:up_key, efn:angel_key, efn:pressing_key1, invincible:right, efn:press_key3, efn:press_key4, efn:key3_press_timer, efn:innate_press_timer, invincible:down, efn:energy_check, efn:press_innate, efn:jump_key, efn:pressing_key3, efn:key4_press_timer, efn:charge_stage, efn:pressing_innate, efn:key2_press_timer, efn:is_charging, efn:full_charge_message, efn:combo_counter, invincible:cooldown] for efn:beastclaw
+[14Feb2026 19:33:27.215] [main/INFO] [epicfight/]: Data keys [efn:down_key, invincible:up, efn:pressing_key2, invincible:left, invincible:parry_timer, efn:is_pressing, efn:demon_key, efn:key1_press_timer, invincible:dodge_success_timer, efn:pressing_key4, efn:charge_ticks, efn:sneak_key, efn:press_key2, efn:press_key1, efn:charge_power, efn:force_release, efn:cooldown, efn:charge_message, efn:sprint_key, efn:up_key, efn:angel_key, efn:pressing_key1, invincible:right, efn:press_key3, efn:press_key4, efn:key3_press_timer, efn:innate_press_timer, invincible:down, efn:energy_check, efn:press_innate, efn:jump_key, efn:pressing_key3, efn:key4_press_timer, efn:charge_stage, efn:pressing_innate, efn:key2_press_timer, efn:is_charging, efn:full_charge_message, efn:combo_counter, invincible:cooldown] for efn:aetherialdusk
+[14Feb2026 19:33:27.537] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14Feb2026 19:33:27.869] [main/INFO] [epicfight/]: Data keys [epicfight:combo_counter, epicfight:basic_attack_active] for epicfight:basic_attack
+[14Feb2026 19:33:27.869] [main/INFO] [epicfight/]: Data keys [epicfight:penalty_restore_counter, epicfight:penalty] for epicfight:guard
+[14Feb2026 19:33:27.869] [main/INFO] [epicfight/]: Data keys [epicfight:penalty_restore_counter, epicfight:last_active, epicfight:parry_motion_counter, epicfight:penalty] for epicfight:parrying
+[14Feb2026 19:33:27.870] [main/INFO] [epicfight/]: Data keys [epicfight:penalty_restore_counter, epicfight:penalty] for epicfight:impact_guard
+[14Feb2026 19:33:27.870] [main/INFO] [epicfight/]: Data keys [epicfight:stacks, epicfight:tick_record, epicfight:resisting_damage_type] for epicfight:adaptive_skin
+[14Feb2026 19:33:27.870] [main/INFO] [epicfight/]: Data keys [epicfight:tick_record] for epicfight:adrenaline_fiend
+[14Feb2026 19:33:27.870] [main/INFO] [epicfight/]: Data keys [epicfight:entity_id, epicfight:stacks] for epicfight:bonebreaker
+[14Feb2026 19:33:27.870] [main/INFO] [epicfight/]: Data keys [epicfight:entity_id, epicfight:tick_record] for epicfight:vengeance
+[14Feb2026 19:33:27.870] [main/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall, epicfight:fall_distance] for epicfight:meteor_slam
+[14Feb2026 19:33:27.870] [main/INFO] [epicfight/]: Data keys [epicfight:stacks] for epicfight:revelation
+[14Feb2026 19:33:27.870] [main/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall] for epicfight:demolition_leap
+[14Feb2026 19:33:27.870] [main/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall, epicfight:jump_key_pressed_last_tick, epicfight:jump_count] for epicfight:phantom_ascent
+[14Feb2026 19:33:27.871] [main/INFO] [epicfight/]: Data keys [epicfight:last_hit_count] for epicfight:grasping_spire
+[14Feb2026 19:33:27.871] [main/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu_passive
+[14Feb2026 19:33:27.871] [main/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu
+[14Feb2026 19:33:27.871] [main/INFO] [epicfight/]: Data keys [epicfight:combo_counter] for epicfight:blade_rush
+[14Feb2026 19:33:27.871] [main/INFO] [epicfight/]: Data keys [epicfight:thrown_trident_entity_id] for epicfight:everlasting_allegiance
+[14Feb2026 19:33:27.871] [main/INFO] [epicfight/]: Data keys [invincible:up, invincible:down, invincible:left, invincible:parry_timer, invincible:right, invincible:dodge_success_timer, invincible:cooldown] for invincible:combo_demo
+[14Feb2026 19:33:27.871] [main/INFO] [epicfight/]: Data keys [efn:current_puncture_chance, efn:max_puncture_chance, efn:base_puncture_chance, efn:puncture_increment] for efn:parry_master
+[14Feb2026 19:33:27.871] [main/INFO] [epicfight/]: Data keys [efn:buff_active, efn:defense_start_tick, efn:buff_end_tick] for efn:precise_parry
+[14Feb2026 19:33:27.871] [main/INFO] [epicfight/]: Data keys [efn:cooldown] for efn:judgementcutend
+[14Feb2026 19:33:27.872] [main/INFO] [epicfight/]: Data keys [efn:cooldown] for efn:stomp
+[14Feb2026 19:33:27.872] [main/INFO] [epicfight/]: Data keys [efn:cooldown] for efn:execution
+[14Feb2026 19:33:27.873] [main/INFO] [epicfight/]: Data keys [efn:efn_last_parry_time, efn:efn_last_active, efn:efn_parry_motion_counter, efn:efn_shake_detected, efn:efn_first_shake, epicfight:penalty_restore_counter, efn:efn_last_guard_start_tick, efn:efn_delay_protection_end, efn:efn_shake_penalty_count, efn:efn_starting_parry, efn:efn_last_successful_defense_tick, epicfight:penalty] for efn:efn_parry
+[14Feb2026 19:33:27.873] [main/INFO] [epicfight/]: Data keys [efn:down_key, invincible:up, efn:press_summon_sword, efn:pressing_key2, invincible:left, invincible:parry_timer, efn:is_pressing, efn:demon_key, efn:key1_press_timer, invincible:dodge_success_timer, efn:pressing_key4, efn:charge_ticks, efn:sneak_key, efn:press_key2, efn:press_key1, efn:charge_power, efn:force_release, efn:cooldown, efn:charge_message, efn:sprint_key, efn:up_key, efn:angel_key, efn:pressing_key1, invincible:right, efn:press_key3, efn:press_doppelganger, efn:have_doppelganger, efn:press_key4, efn:doppelganger_tick, efn:key3_press_timer, efn:innate_press_timer, invincible:down, efn:doppelganger_style, efn:energy_check, efn:press_innate, efn:jump_key, efn:pressing_key3, efn:key4_press_timer, efn:charge_stage, efn:doppelganger_delay, efn:pressing_innate, efn:key2_press_timer, efn:is_charging, efn:full_charge_message, efn:combo_counter, invincible:cooldown] for efn:yamato
+[14Feb2026 19:33:27.873] [main/INFO] [epicfight/]: Data keys [efn:parry_cooldown, efn:doppelganger_style, efn:doppelganger_delay, efn:stun_cooldown, efn:have_doppelganger, efn:doppelganger_tick] for efn:yamato_passive
+[14Feb2026 19:33:27.873] [main/INFO] [epicfight/]: Data keys [efn:down_key, invincible:up, efn:pressing_key2, invincible:left, invincible:parry_timer, efn:is_pressing, efn:replay_enhanced, efn:demon_key, efn:key1_press_timer, invincible:dodge_success_timer, efn:pressing_key4, efn:charge_ticks, efn:sneak_key, efn:press_key2, efn:press_key1, efn:charge_power, efn:force_release, efn:cooldown, efn:damage_history, efn:charge_message, efn:sprint_key, efn:up_key, efn:angel_key, efn:pressing_key1, invincible:right, efn:press_key3, efn:is_replay_damage, efn:press_key4, efn:key3_press_timer, efn:innate_press_timer, invincible:down, efn:energy_check, efn:press_innate, efn:jump_key, efn:pressing_key3, efn:key4_press_timer, efn:charge_stage, efn:pressing_innate, efn:key2_press_timer, efn:is_charging, efn:full_charge_message, efn:combo_counter, invincible:cooldown] for efn:shortsword
+[14Feb2026 19:33:27.873] [main/INFO] [epicfight/]: Data keys [efn:down_key, invincible:up, efn:pressing_key2, invincible:left, invincible:parry_timer, efn:is_pressing, efn:demon_key, efn:key1_press_timer, invincible:dodge_success_timer, efn:pressing_key4, efn:charge_ticks, efn:sneak_key, efn:press_key2, efn:press_key1, efn:charge_power, efn:force_release, efn:cooldown, efn:charge_message, efn:sprint_key, efn:up_key, efn:angel_key, efn:pressing_key1, invincible:right, efn:press_key3, efn:press_key4, efn:key3_press_timer, efn:innate_press_timer, invincible:down, efn:energy_check, efn:press_innate, efn:jump_key, efn:pressing_key3, efn:key4_press_timer, efn:charge_stage, efn:pressing_innate, efn:key2_press_timer, efn:is_charging, efn:full_charge_message, efn:combo_counter, invincible:cooldown] for efn:ruinsgreatsword
+[14Feb2026 19:33:27.874] [main/INFO] [epicfight/]: Data keys [efn:down_key, invincible:up, efn:pressing_key2, invincible:left, invincible:parry_timer, efn:is_pressing, efn:demon_key, efn:key1_press_timer, invincible:dodge_success_timer, efn:pressing_key4, efn:charge_ticks, efn:sneak_key, efn:press_key2, efn:press_key1, efn:charge_power, efn:force_release, efn:cooldown, efn:charge_message, efn:sprint_key, efn:up_key, efn:angel_key, efn:pressing_key1, invincible:right, efn:press_key3, efn:press_key4, efn:key3_press_timer, efn:innate_press_timer, invincible:down, efn:energy_check, efn:press_innate, efn:jump_key, efn:pressing_key3, efn:key4_press_timer, efn:charge_stage, efn:pressing_innate, efn:key2_press_timer, efn:is_charging, efn:full_charge_message, efn:combo_counter, invincible:cooldown] for efn:pioneer
+[14Feb2026 19:33:27.874] [main/INFO] [epicfight/]: Data keys [efn:down_key, invincible:up, efn:pressing_key2, invincible:left, invincible:parry_timer, efn:is_pressing, efn:demon_key, efn:key1_press_timer, invincible:dodge_success_timer, efn:pressing_key4, efn:charge_ticks, efn:sneak_key, efn:press_key2, efn:press_key1, efn:charge_power, efn:force_release, efn:cooldown, efn:charge_message, efn:sprint_key, efn:up_key, efn:angel_key, efn:pressing_key1, invincible:right, efn:press_key3, efn:press_key4, efn:key3_press_timer, efn:innate_press_timer, invincible:down, efn:energy_check, efn:press_innate, efn:jump_key, efn:pressing_key3, efn:key4_press_timer, efn:charge_stage, efn:pressing_innate, efn:key2_press_timer, efn:is_charging, efn:full_charge_message, efn:combo_counter, invincible:cooldown] for efn:meenlance
+[14Feb2026 19:33:27.874] [main/INFO] [epicfight/]: Data keys [efn:down_key, invincible:up, efn:pressing_key2, invincible:left, invincible:parry_timer, efn:is_pressing, efn:demon_key, efn:key1_press_timer, invincible:dodge_success_timer, efn:pressing_key4, efn:charge_ticks, efn:sneak_key, efn:press_key2, efn:press_key1, efn:charge_power, efn:force_release, efn:cooldown, efn:charge_message, efn:sprint_key, efn:up_key, efn:angel_key, efn:pressing_key1, invincible:right, efn:press_key3, efn:press_key4, efn:key3_press_timer, efn:innate_press_timer, invincible:down, efn:energy_check, efn:press_innate, efn:jump_key, efn:pressing_key3, efn:key4_press_timer, efn:charge_stage, efn:pressing_innate, efn:key2_press_timer, efn:is_charging, efn:full_charge_message, efn:combo_counter, invincible:cooldown] for efn:exsiliumgladius
+[14Feb2026 19:33:27.874] [main/INFO] [epicfight/]: Data keys [efn:down_key, invincible:up, efn:pressing_key2, invincible:left, invincible:parry_timer, efn:is_pressing, efn:demon_key, efn:key1_press_timer, invincible:dodge_success_timer, efn:pressing_key4, efn:charge_ticks, efn:sneak_key, efn:press_key2, efn:press_key1, efn:charge_power, efn:force_release, efn:cooldown, efn:charge_message, efn:sprint_key, efn:up_key, efn:angel_key, efn:pressing_key1, invincible:right, efn:press_key3, efn:press_key4, efn:key3_press_timer, efn:innate_press_timer, invincible:down, efn:energy_check, efn:press_innate, efn:jump_key, efn:pressing_key3, efn:key4_press_timer, efn:charge_stage, efn:pressing_innate, efn:key2_press_timer, efn:is_charging, efn:full_charge_message, efn:combo_counter, invincible:cooldown] for efn:bloodlust
+[14Feb2026 19:33:27.875] [main/INFO] [epicfight/]: Data keys [efn:down_key, invincible:up, efn:pressing_key2, invincible:left, invincible:parry_timer, efn:is_pressing, efn:demon_key, efn:key1_press_timer, invincible:dodge_success_timer, efn:pressing_key4, efn:charge_ticks, efn:sneak_key, efn:press_key2, efn:press_key1, efn:charge_power, efn:force_release, efn:cooldown, efn:charge_message, efn:sprint_key, efn:up_key, efn:angel_key, efn:pressing_key1, invincible:right, efn:press_key3, efn:press_key4, efn:key3_press_timer, efn:innate_press_timer, invincible:down, efn:energy_check, efn:press_innate, efn:jump_key, efn:pressing_key3, efn:key4_press_timer, efn:charge_stage, efn:pressing_innate, efn:key2_press_timer, efn:is_charging, efn:full_charge_message, efn:combo_counter, invincible:cooldown] for efn:beastclaw
+[14Feb2026 19:33:27.875] [main/INFO] [epicfight/]: Data keys [efn:down_key, invincible:up, efn:pressing_key2, invincible:left, invincible:parry_timer, efn:is_pressing, efn:demon_key, efn:key1_press_timer, invincible:dodge_success_timer, efn:pressing_key4, efn:charge_ticks, efn:sneak_key, efn:press_key2, efn:press_key1, efn:charge_power, efn:force_release, efn:cooldown, efn:charge_message, efn:sprint_key, efn:up_key, efn:angel_key, efn:pressing_key1, invincible:right, efn:press_key3, efn:press_key4, efn:key3_press_timer, efn:innate_press_timer, invincible:down, efn:energy_check, efn:press_innate, efn:jump_key, efn:pressing_key3, efn:key4_press_timer, efn:charge_stage, efn:pressing_innate, efn:key2_press_timer, efn:is_charging, efn:full_charge_message, efn:combo_counter, invincible:cooldown] for efn:aetherialdusk
+[14Feb2026 19:33:27.875] [main/INFO] [epicfight/]: Data keys [wom:target_id] for wom:ender_obscuris
+[14Feb2026 19:33:27.875] [main/INFO] [epicfight/]: Data keys [wom:dodge, wom:timer, wom:timer_refresh] for wom:dodge_master
+[14Feb2026 19:33:27.875] [main/INFO] [epicfight/]: Data keys [wom:dodge, wom:timer, wom:cooldown, wom:registered_health, wom:active, wom:registered_position, wom:timer_refresh] for wom:time_travel
+[14Feb2026 19:33:27.875] [main/INFO] [epicfight/]: Data keys [wom:cooldown] for wom:punishment_kick
+[14Feb2026 19:33:27.875] [main/INFO] [epicfight/]: Data keys [wom:parrying, epicfight:penalty_restore_counter, wom:consumprion_value, wom:last_active, epicfight:penalty] for wom:counter_attack
+[14Feb2026 19:33:27.875] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:cooldown, epicfight:penalty_restore_counter, wom:holding_stance, wom:consumprion_value, wom:vengence_duration, wom:timer_refresh, wom:charge, epicfight:penalty] for wom:vengeful_parry
+[14Feb2026 19:33:27.876] [main/INFO] [epicfight/]: Data keys [wom:parrying, wom:cooldown, epicfight:penalty_restore_counter, wom:charge, epicfight:penalty] for wom:perfect_bulwark
+[14Feb2026 19:33:27.876] [main/INFO] [epicfight/]: Data keys [wom:cycle, wom:charge] for wom:soul_protection
+[14Feb2026 19:33:27.876] [main/INFO] [epicfight/]: Data keys [wom:cycle, wom:charge] for wom:shulker_cloak
+[14Feb2026 19:33:27.876] [main/INFO] [epicfight/]: Data keys [wom:timer, epicfight:penalty_restore_counter, wom:active, epicfight:penalty] for wom:buster_parade
+[14Feb2026 19:33:27.876] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:duree, wom:active, wom:timer_refresh] for wom:pain_anticipation
+[14Feb2026 19:33:27.876] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:duree, wom:active, wom:timer_refresh] for wom:latent_retribution
+[14Feb2026 19:33:27.877] [main/INFO] [epicfight/]: Data keys [wom:power, wom:rate] for wom:critical_knowledge
+[14Feb2026 19:33:27.877] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:recovery_rate, wom:max_shield] for wom:heart_shield
+[14Feb2026 19:33:27.877] [main/INFO] [epicfight/]: Data keys [wom:saved_elapsed_time, wom:melody_index, wom:step] for wom:dancing_blade
+[14Feb2026 19:33:27.877] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:cycle, wom:stage, wom:duree, wom:active, wom:timer_refresh] for wom:meditation
+[14Feb2026 19:33:27.877] [main/INFO] [epicfight/]: Data keys [wom:cooldown] for wom:dopamine
+[14Feb2026 19:33:27.877] [main/INFO] [epicfight/]: Data keys [wom:last_active] for wom:manipulator
+[14Feb2026 19:33:27.877] [main/INFO] [epicfight/]: Data keys [wom:power, wom:timer, wom:stack, wom:rate] for wom:lethal_focus
+[14Feb2026 19:33:27.877] [main/INFO] [epicfight/]: Data keys [wom:wall_glide, wom:timer, wom:wall_running, wom:jump_key_up, wom:angle, wom:timer_refresh] for wom:spider_techniques
+[14Feb2026 19:33:27.877] [main/INFO] [epicfight/]: Data keys [wom:water_dashing, wom:cooldown, wom:jump_key_up, wom:consumprion_value, wom:mermaid_movement, wom:diving, wom:crawling] for wom:aqua_maneuvre
+[14Feb2026 19:33:27.877] [main/INFO] [epicfight/]: Data keys [wom:wall_glide, wom:timer, wom:stage, wom:wall_running, wom:consumprion_value, wom:active, wom:buffing, wom:verso] for wom:natural_sprinter
+[14Feb2026 19:33:27.877] [main/INFO] [epicfight/]: Data keys [wom:timer] for wom:lunatic_vivacity
+[14Feb2026 19:33:27.878] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:registered_health, wom:consumprion_value] for wom:voodoo_magic
+[14Feb2026 19:33:27.878] [main/INFO] [epicfight/]: Data keys [wom:target_id, wom:target_distance] for wom:back_and_forth
+[14Feb2026 19:33:27.878] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:combo] for wom:shooting_style
+[14Feb2026 19:33:27.878] [main/INFO] [epicfight/]: Data keys [wom:timer] for wom:proximity_exploiter
+[14Feb2026 19:33:27.878] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:stack] for wom:all_eyes_on_you
+[14Feb2026 19:33:27.878] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:stack] for wom:all_eyes_on_me
+[14Feb2026 19:33:27.878] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:cooldown] for wom:avatar_of_might
+[14Feb2026 19:33:27.878] [main/INFO] [epicfight/]: Data keys [wom:stack, wom:attacks, wom:active] for wom:agony_plunge
+[14Feb2026 19:33:27.878] [main/INFO] [epicfight/]: Data keys [wom:charging_time, wom:charged_attack, wom:timer, wom:charging, wom:charged, wom:movespeed, wom:active, wom:saved_charge, wom:timer_refresh] for wom:torment_passive
+[14Feb2026 19:33:27.878] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:active, wom:timer_refresh] for wom:true_berserk
+[14Feb2026 19:33:27.878] [main/INFO] [epicfight/]: Data keys [wom:stack] for wom:herrscher_passive
+[14Feb2026 19:33:27.878] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:redemptioon, wom:buffing, wom:timer_refresh, wom:strenght, wom:verso, wom:buffed, wom:expiation] for wom:plunder_perdition
+[14Feb2026 19:33:27.879] [main/INFO] [epicfight/]: Data keys [wom:sheath] for wom:satsujin_passive
+[14Feb2026 19:33:27.879] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:holding_stance, wom:stack, wom:charging, wom:timedslash, wom:timer_refresh, wom:second_draw, wom:cooldown, wom:frequency, wom:attacks, wom:damage, wom:active, wom:saved_charge, wom:charge] for wom:sakura_state
+[14Feb2026 19:33:27.879] [main/INFO] [epicfight/]: Data keys [wom:nofalldamage, wom:shoot, wom:using_item, wom:cooldown, wom:combo, wom:zoom, wom:reload_cooldown] for wom:ender_blast
+[14Feb2026 19:33:27.879] [main/INFO] [epicfight/]: Data keys [wom:nofalldamage, wom:shoot, wom:using_item, wom:cooldown, wom:combo, wom:side, wom:zoom, wom:reload_cooldown] for wom:ender_fusion
+[14Feb2026 19:33:27.879] [main/INFO] [epicfight/]: Data keys [wom:guard_point_result, wom:charging_time, wom:parrying, wom:cooldown, wom:holding_stance, wom:guard_point, wom:combo, wom:charged, wom:gesetz_sprengkopf] for wom:regierung
+[14Feb2026 19:33:27.879] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:lunar_eclipse_stack, wom:echo, wom:crescent, wom:timer_refresh] for wom:lunar_eclipse
+[14Feb2026 19:33:27.879] [main/INFO] [epicfight/]: Data keys [wom:idle, wom:verso] for wom:lunar_echo_passive
+[14Feb2026 19:33:27.879] [main/INFO] [epicfight/]: Data keys [wom:ascending, wom:shoot, wom:darkness_target_reaped, wom:blackhole, wom:timer, wom:zoom_cooldown, wom:darkness_activate_portal, wom:witherccatharsis, wom:zoom, wom:shoot_cooldown, wom:darkness_target, wom:timer_refresh, wom:witheraftereffect, wom:blackhole_timer, wom:darkness_portal_angle, wom:serius_focus_cooldown, wom:blackhole_vec, wom:darkness_target_vec, wom:darkness_target_hited, wom:darkness_portal_timer, wom:darkness_portal_vec, wom:active, wom:serius_focus, wom:blackhole_active] for wom:demonic_ascension
+[14Feb2026 19:33:27.879] [main/INFO] [epicfight/]: Data keys [wom:catharsis, wom:particle, wom:idle, wom:lapse, wom:basic_attack, wom:blink, wom:withercurse] for wom:demon_mark_passive
+[14Feb2026 19:33:27.879] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:cycle, wom:charging, wom:heating_speed, wom:particle, wom:stored_heat_level, wom:solar_obscuridad_ta_timer, wom:heat_level, wom:timer_refresh, wom:timed_attack, wom:solar_obscuridad, wom:solar_crematorio, wom:solar_infernio, wom:charge] for wom:solar_arcano
+[14Feb2026 19:33:27.880] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:cycle, wom:charging, wom:heating_speed, wom:particle, wom:stored_heat_level, wom:solar_obscuridad_ta_timer, wom:heat_level, wom:timer_refresh, wom:timed_attack, wom:solar_obscuridad, wom:solar_crematorio, wom:solar_infernio, wom:charge] for wom:solar_passive
+[14Feb2026 19:33:27.880] [main/INFO] [epicfight/]: Data keys [wom:serius_focus_cooldown, wom:serius_focus] for wom:rechargement
+[14Feb2026 19:33:27.880] [main/INFO] [epicfight/]: Data keys [wom:bullet_loaded, wom:bullet_loaded_old, wom:super_reload, wom:bullet_overloaded, wom:shell_anim, wom:active, wom:shell_number, wom:shell_delay] for wom:napoleon_passive
+[14Feb2026 19:33:27.954] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/WingsfieldOficial/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23205!/assets/.mcassetsroot' uses unexpected schema
+[14Feb2026 19:33:27.954] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/WingsfieldOficial/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23205!/data/.mcassetsroot' uses unexpected schema
+[14Feb2026 19:33:30.488] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag humancompanions:has_structure/spruce_house as it is missing following references: minecraft:windswept_gravelley_hills (from humancompanions-1.20.1-1.7.6.jar)
+[14Feb2026 19:33:30.496] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag humancompanions:has_structure/oak_house as it is missing following references: minecraft:windswept_gravelley_hills (from humancompanions-1.20.1-1.7.6.jar)
+[14Feb2026 19:33:30.516] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag humancompanions:swords as it is missing following references: #forge:tools/swords (from humancompanions-1.20.1-1.7.6.jar)
+[14Feb2026 19:33:30.522] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag humancompanions:axes as it is missing following references: #forge:tools/axes (from humancompanions-1.20.1-1.7.6.jar)
+[14Feb2026 19:33:31.699] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:parcool:grant_parcool_guide
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:872) ~[forge-1.20.1-47.4.10-universal.jar%23210!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:849) ~[forge-1.20.1-47.4.10-universal.jar%23210!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[14Feb2026 19:33:31.892] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe parcool:parcool_guide: com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
+[14Feb2026 19:33:31.929] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[14Feb2026 19:33:32.033] [main/INFO] [quark/]: [Automatic Recipe Unlock] Removed 2080 recipe advancements
+[14Feb2026 19:33:32.040] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 261 advancements
+[14Feb2026 19:33:38.304] [main/WARN] [epicfight/]: Skill efn:example doesn't exist in the registry.
+[14Feb2026 19:33:38.317] [main/WARN] [epicfight/]: Error while deserializing datapack for efn:crimson_moon: Can't find weapon type: efn:scythe
+[14Feb2026 19:33:38.320] [main/WARN] [epicfight/]: Item Capability Exception: No item named efn:sacred_arbiter
+[14Feb2026 19:33:38.321] [main/WARN] [epicfight/]: Error while deserializing datapack for efn:arc_tachi: Can't find weapon type: efn:example
+[14Feb2026 19:33:38.334] [main/WARN] [epicfight/]: Can't find a particle type epicfight:entity.hit.blunt in invincible:custom_combo_demo
+[14Feb2026 19:33:38.336] [main/WARN] [epicfight/]: No animation named epicfight:biped/combat/javelin_throw_mid
+[14Feb2026 19:33:38.336] [main/WARN] [epicfight/]: No animation named epicfight:biped/combat/javelin_aim_mid
+[14Feb2026 19:33:38.336] [main/WARN] [epicfight/]: No animation named epicfight:biped/combat/javelin_aim_mid
+[14Feb2026 19:33:38.336] [main/WARN] [epicfight/]: No animation named epicfight:biped/combat/javelin_aim_mid
+[14Feb2026 19:33:38.336] [main/WARN] [epicfight/]: No animation named epicfight:biped/combat/javelin_throw_mid
+[14Feb2026 19:33:38.337] [main/WARN] [epicfight/]: No animation named epicfight:biped/combat/javelin_aim_mid
+[14Feb2026 19:33:38.338] [main/WARN] [epicfight/]: No animation named epicfight:biped/combat/javelin_throw_mid
+[14Feb2026 19:33:38.338] [main/WARN] [epicfight/]: No animation named epicfight:biped/combat/javelin_aim_mid
+[14Feb2026 19:33:38.338] [main/WARN] [epicfight/]: No animation named epicfight:biped/combat/javelin_throw_mid
+[14Feb2026 19:33:38.342] [main/WARN] [epicfight/]: No animation named epicfight:biped/combat/javelin_throw_mid
+[14Feb2026 19:33:38.342] [main/WARN] [epicfight/]: No animation named epicfight:biped/combat/javelin_aim_mid
+[14Feb2026 19:33:38.342] [main/WARN] [epicfight/]: No animation named epicfight:biped/combat/javelin_aim_mid
+[14Feb2026 19:33:38.342] [main/WARN] [epicfight/]: No animation named epicfight:biped/combat/javelin_aim_mid
+[14Feb2026 19:33:38.342] [main/WARN] [epicfight/]: No animation named epicfight:biped/combat/javelin_throw_mid
+[14Feb2026 19:33:38.395] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[14Feb2026 19:33:38.398] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[14Feb2026 19:33:38.400] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_on with 2 patches
+[14Feb2026 19:33:38.401] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
+[14Feb2026 19:33:38.401] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
+[14Feb2026 19:33:38.401] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
+[14Feb2026 19:33:38.401] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/balanced_diet with 2 patches
+[14Feb2026 19:33:38.402] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_effects with 1 patches
+[14Feb2026 19:33:38.402] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_off with 2 patches
+[14Feb2026 19:33:38.402] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
+[14Feb2026 19:33:38.402] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_potions with 1 patches
+[14Feb2026 19:33:39.008] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: humancompanions:has_structure/oak_house, humancompanions:has_structure/spruce_house
+[14Feb2026 19:33:39.072] [main/WARN] [ModernFix/]: Initial datapack load took 11.09 s
+[14Feb2026 19:33:39.347] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[14Feb2026 19:33:39.347] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[14Feb2026 19:33:39.347] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[14Feb2026 19:33:39.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14Feb2026 19:33:39.448] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[14Feb2026 19:33:39.467] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[14Feb2026 19:33:39.537] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14Feb2026 19:33:39.537] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[14Feb2026 19:33:39.537] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14Feb2026 19:33:39.537] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[14Feb2026 19:33:39.553] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/mine_and_slash-server.toml is not correct. Correcting
+[14Feb2026 19:33:39.554] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.ENTITY_SUMMON_BLACKLIST was corrected from [minecraft:allay, minecraft:armor_stand] to its default, [minecraft:allay, minecraft:armor_stand]. 
+[14Feb2026 19:33:39.640] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: Wiping dimension folder: /workspaces/WingsfieldOficial/servidor_minecraft/world/dimensions/the_harvest/harvest - If this is a the_harvest:harvest dimension folder, then the feature is working correctly. Report if it tries deleting something else though!
+[14Feb2026 19:33:39.640] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: These dimensions are meant to be wiped on server boot to remain infinite.
+[14Feb2026 19:33:39.656] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: Wiping dimension folder: /workspaces/WingsfieldOficial/servidor_minecraft/world/dimensions/dungeon_realm/dungeon - If this is a dungeon_realm:dungeon dimension folder, then the feature is working correctly. Report if it tries deleting something else though!
+[14Feb2026 19:33:39.656] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: These dimensions are meant to be wiped on server boot to remain infinite.
+[14Feb2026 19:33:39.675] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: Wiping dimension folder: /workspaces/WingsfieldOficial/servidor_minecraft/world/dimensions/ancient_obelisks/obelisk - If this is a ancient_obelisks:obelisk dimension folder, then the feature is working correctly. Report if it tries deleting something else though!
+[14Feb2026 19:33:39.675] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: These dimensions are meant to be wiped on server boot to remain infinite.
+[14Feb2026 19:33:39.697] [Server thread/INFO] [quark-zeta/]: Server starting, accepting filewatcher changes for quark's config
+[14Feb2026 19:33:39.698] [Server thread/INFO] [zeta/]: Server starting, accepting filewatcher changes for zeta's config
+[14Feb2026 19:33:39.706] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[14Feb2026 19:33:40.486] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[14Feb2026 19:33:40.487] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[14Feb2026 19:33:41.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14Feb2026 19:33:42.756] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Feb2026 19:33:42.757] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Feb2026 19:33:42.757] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Feb2026 19:33:42.758] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Feb2026 19:33:43.178] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Feb2026 19:33:43.646] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2469 ms
+[14Feb2026 19:33:43.647] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.098s)! For help, type "help"
+[14Feb2026 19:33:43.696] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[14Feb2026 19:33:43.701] [Server thread/INFO] [com.finderfeed.fdlib.FDLib/]: Loading FD configs...
+[14Feb2026 19:33:43.701] [Server thread/INFO] [com.finderfeed.fdlib.FDLib/]: Loading config fdbosses:bosses
+[14Feb2026 19:33:43.702] [Server thread/INFO] [com.finderfeed.fdlib.FDLib/]: Loading config fdbosses:bosses_clientside
+[14Feb2026 19:33:43.704] [Server thread/INFO] [com.finderfeed.fdlib.FDLib/]: Loading config fdlib:test
+[14Feb2026 19:33:43.705] [Server thread/INFO] [com.finderfeed.fdlib.FDLib/]: Loading config fdlib:fdlib_client
+[14Feb2026 19:33:43.706] [Server thread/INFO] [com.finderfeed.fdlib.FDLib/]: Loaded FD configs.
+[14Feb2026 19:33:43.748] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[14Feb2026 19:33:43.759] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[14Feb2026 19:33:43.760] [Server thread/WARN] [ModernFix/]: Dedicated server took 39.124 seconds to load
+[14Feb2026 19:37:08.869] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@203d178[id=<null>,name=ALFEREZ_SACKER,properties={},legacy=false] (/127.189.222.8:47665) lost connection: Disconnected
+[14Feb2026 19:37:56.361] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3ae84c71[id=<null>,name=ALFEREZ_SACKER,properties={},legacy=false] (/127.189.222.8:54923) lost connection: Disconnected
+[14Feb2026 19:39:49.795] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ALFEREZ_SACKER[/127.189.222.8:52637] logged in with entity id 107 at (242.08718973562847, 120.0, -109.63956474717881)
+[14Feb2026 19:39:49.885] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player ALFEREZ_SACKER
+[14Feb2026 19:39:49.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALFEREZ_SACKER joined the game
+[14Feb2026 19:39:50.698] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of ALFEREZ_SACKER (20)
+[14Feb2026 19:39:50.700] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to ALFEREZ_SACKER
+[14Feb2026 19:39:50.746] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 57463a19-50b9-3534-84d9-07ceeb260a28 was loaded
+[14Feb2026 19:39:50.747] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Sent Server Limitation of [ALFEREZ_SACKER]
+[14Feb2026 19:39:50.748] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Received Client Information of [ALFEREZ_SACKER]
+[14Feb2026 20:15:52.669] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ALFEREZ_SACKER lost connection: Disconnected
+[14Feb2026 20:15:52.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALFEREZ_SACKER left the game
+[14Feb2026 20:15:52.670] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 57463a19-50b9-3534-84d9-07ceeb260a28 was unloaded
+[14Feb2026 20:15:52.672] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client ALFEREZ_SACKER
+[14Feb2026 20:18:14.711] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ALFEREZ_SACKER[/127.189.222.8:55355] logged in with entity id 4849 at (241.05588662592513, 120.0, -104.31404286988649)
+[14Feb2026 20:18:14.863] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player ALFEREZ_SACKER
+[14Feb2026 20:18:14.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALFEREZ_SACKER joined the game
+[14Feb2026 20:18:15.304] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of ALFEREZ_SACKER (20)
+[14Feb2026 20:18:15.305] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to ALFEREZ_SACKER
+[14Feb2026 20:18:15.305] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 57463a19-50b9-3534-84d9-07ceeb260a28 was loaded
+[14Feb2026 20:18:15.305] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Sent Server Limitation of [ALFEREZ_SACKER]
+[14Feb2026 20:18:15.310] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Received Client Information of [ALFEREZ_SACKER]
+[14Feb2026 20:18:19.118] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ALFEREZ_SACKER lost connection: Disconnected
+[14Feb2026 20:18:19.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALFEREZ_SACKER left the game
+[14Feb2026 20:18:19.119] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 57463a19-50b9-3534-84d9-07ceeb260a28 was unloaded
+[14Feb2026 20:18:19.119] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client ALFEREZ_SACKER
+[14Feb2026 20:19:35.724] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ALFEREZ_SACKER[/127.189.222.8:55811] logged in with entity id 5020 at (241.05588662592513, 120.0, -104.31404286988649)
+[14Feb2026 20:19:35.774] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player ALFEREZ_SACKER
+[14Feb2026 20:19:35.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALFEREZ_SACKER joined the game
+[14Feb2026 20:19:36.631] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of ALFEREZ_SACKER (20)
+[14Feb2026 20:19:36.632] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to ALFEREZ_SACKER
+[14Feb2026 20:19:36.673] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 57463a19-50b9-3534-84d9-07ceeb260a28 was loaded
+[14Feb2026 20:19:36.673] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Sent Server Limitation of [ALFEREZ_SACKER]
+[14Feb2026 20:19:36.673] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Received Client Information of [ALFEREZ_SACKER]
+[14Feb2026 20:26:26.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALFEREZ_SACKER has made the advancement [Stone Age]

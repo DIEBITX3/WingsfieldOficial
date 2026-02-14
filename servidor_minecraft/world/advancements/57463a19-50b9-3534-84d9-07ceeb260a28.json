@@ -1,0 +1,209 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna_plateau": "2026-02-14 17:19:30 +0000",
+      "minecraft:lukewarm_ocean": "2026-02-14 17:36:03 +0000",
+      "minecraft:river": "2026-02-14 17:10:37 +0000",
+      "minecraft:stony_shore": "2026-02-14 17:37:45 +0000",
+      "minecraft:forest": "2026-02-14 16:21:14 +0000",
+      "minecraft:deep_lukewarm_ocean": "2026-02-14 17:35:45 +0000",
+      "minecraft:savanna": "2026-02-14 16:21:40 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2026-02-14 16:23:43 +0000"
+    },
+    "done": true
+  },
+  "nightfall_invade:root": {
+    "criteria": {
+      "custom_test_name": "2026-02-14 16:54:31 +0000"
+    },
+    "done": true
+  },
+  "parcool:grant_parcool_guide": {
+    "criteria": {
+      "tick": "2026-02-14 16:54:31 +0000"
+    },
+    "done": true
+  },
+  "mowziesmobs:root": {
+    "criteria": {
+      "custom_test_name": "2026-02-14 16:54:31 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2026-02-14 16:54:31 +0000"
+    },
+    "done": true
+  },
+  "efn:yamato_dmc_in_sheath": {
+    "criteria": {
+      "obtain": "2026-02-14 17:02:06 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:gatling_gun": {
+    "criteria": {
+      "gatling_gun": "2026-02-14 17:07:20 +0000"
+    },
+    "done": true
+  },
+  "efn:yamato_dmc4_in_sheath": {
+    "criteria": {
+      "obtain": "2026-02-14 17:07:56 +0000"
+    },
+    "done": true
+  },
+  "efn:nf_dual_sword": {
+    "criteria": {
+      "obtain": "2026-02-14 17:09:03 +0000"
+    },
+    "done": true
+  },
+  "efn:ruinsgreatsword": {
+    "criteria": {
+      "obtain": "2026-02-14 17:09:48 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:all_weapons": {
+    "criteria": {
+      "darkmoon_longbow": "2026-02-14 17:11:32 +0000",
+      "withered_wabbajack": "2026-02-14 17:21:16 +0000",
+      "whirligig_sawblade": "2026-02-14 17:21:59 +0000",
+      "shadow_assassin_scythe": "2026-02-14 17:13:43 +0000",
+      "guts_sword": "2026-02-14 17:12:07 +0000",
+      "holy_moonlight_sword": "2026-02-14 17:11:51 +0000"
+    },
+    "done": false
+  },
+  "soulsweapons:trickweapon": {
+    "criteria": {
+      "condition_0": "2026-02-14 17:11:51 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:all_moonlight_weapons": {
+    "criteria": {
+      "holy_moonlight_sword": "2026-02-14 17:11:51 +0000"
+    },
+    "done": false
+  },
+  "soulsweapons:heap_of_iron": {
+    "criteria": {
+      "guts_sword": "2026-02-14 17:12:07 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:cannon": {
+    "criteria": {
+      "hunter_cannon": "2026-02-14 17:12:54 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:transform_scythe": {
+    "criteria": {
+      "shadow_assassin_scythe": "2026-02-14 17:13:43 +0000"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:kill_underworld_knight": {
+    "criteria": {
+      "kill": "2026-02-14 17:14:50 +0000"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:kill_all_bosses": {
+    "criteria": {
+      "kill_knight": "2026-02-14 17:14:50 +0000"
+    },
+    "done": false
+  },
+  "quark:throw_pickarang": {
+    "criteria": {
+      "throw_pickarang": "2026-02-14 17:17:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2026-02-14 17:18:35 +0000",
+      "minecraft:spider": "2026-02-14 17:18:46 +0000",
+      "minecraft:creeper": "2026-02-14 17:25:05 +0000",
+      "minecraft:zombie": "2026-02-14 17:20:22 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:skeleton": "2026-02-14 17:18:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_boots": "2026-02-14 17:18:36 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:lords_on_stick": {
+    "criteria": {
+      "withered_wabbajack": "2026-02-14 17:21:16 +0000"
+    },
+    "done": false
+  },
+  "soulsweapons:whirligig_sawblade": {
+    "criteria": {
+      "whirligig_sawblade": "2026-02-14 17:21:59 +0000"
+    },
+    "done": true
+  },
+  "efn:co_tachi": {
+    "criteria": {
+      "obtain": "2026-02-14 17:24:35 +0000"
+    },
+    "done": true
+  },
+  "efn:meen_spear": {
+    "criteria": {
+      "obtain": "2026-02-14 17:27:23 +0000"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_umvuthana_raptor": {
+    "criteria": {
+      "umvuthana_raptor": "2026-02-14 17:34:57 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "scrubland": "2026-02-14 17:37:28 +0000"
+    },
+    "done": false
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "scrubland": "2026-02-14 17:37:28 +0000"
+    },
+    "done": true
+  },
+  "efn:fire_exsiliumgladius": {
+    "criteria": {
+      "obtain": "2026-02-14 17:38:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2026-02-14 20:26:26 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
